@@ -1,0 +1,56 @@
+ {
+    padding: 0;
+   margin: 0;
+   font-family: 'poppins',sans-serif;
+}
+
+.main{
+   width: 400px;
+   height: 450px;
+   background-color: purple;
+   position:absolute;
+   border: 10px solid yellow;
+   border-radius: 20px;
+}
+
+body{
+   background-image: url(https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0828%2Fr590220_1296x729_16%2D9.jpg&w=570&format=jpg);
+   display:grid;
+   height: 100vh;
+   place-items: center;
+   }
+
+   .main input[type='text'] {
+      width: 88%;
+      position: relative;
+      height: 80px;
+      top: 5px;
+      text-align: right;
+      padding: 3px 6px;
+      outline: none;
+      font-size: 40px;
+      border: 5px solid yellow;
+      display: flex;
+      margin: auto;
+      border-radius: 6px;
+      color: black;
+   }
+   .btn input[type='button']{
+      width:90px;
+      padding: 2px;
+      margin: 2px 0px;
+      position: relative;
+      left: 13px;
+      top: 20px;
+      height: 60px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: 0.5s;
+      background-color: yellow;
+      border-radius: 600px;
+      color: purple
+   }
+   .btn input[type='buton']:hover{
+      background-color: black;
+      color: purple
+   }
